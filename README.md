@@ -1,2 +1,59 @@
 # RhombixTechnologies_Tasks_4
-Machine Learning regression project that predicts house prices using the California Housing dataset. Includes data preprocessing, feature scaling, model training, evaluation (MSE, R²), and a prediction function for real-time inputs. Fully implemented in Google Colab.
+
+A house price prediction project using machine learning (Linear Regression) trained on the **California Housing dataset**.
+
+## 📌 Task 4: House Price Prediction
+
+### 🎯 Goal
+
+Build a machine learning model to **predict house prices** based on features like median income, house age, rooms, and location.
+
+### 📊 Dataset
+
+* **California Housing dataset** from `sklearn.datasets`.
+* Features include:
+
+  * `MedInc` (Median income)
+  * `HouseAge`
+  * `AveRooms` (Average rooms per household)
+  * `AveBedrms` (Average bedrooms per household)
+  * `Population`
+  * `AveOccup` (Average occupancy)
+  * `Latitude`
+  * `Longitude`
+* Target variable: `MedHouseValue` (Median house value).
+
+### 🛠 Method
+
+* **Data preprocessing**:
+
+  * Feature scaling using **StandardScaler**
+* **Model training**:
+
+  * **Linear Regression** to predict house prices.
+* **Evaluation**:
+
+  * **Mean Squared Error (MSE)**
+  * **R² Score**
+* **Prediction function**:
+
+  * Custom function allows prediction of house price given a dictionary of feature values.
+
+### ✅ Results
+
+* Model evaluation:
+
+  * **Mean Squared Error:** ~`0.56`
+  * **R² Score:** ~`0.58`
+    Output:
+    `Predicted House Price: $439345.69`
+
+### 💻 Technologies Used
+
+* Python
+* scikit-learn
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+
